@@ -1,0 +1,125 @@
+from machine import Pin
+import utime
+led = Pin(25,Pin.OUT)
+first_delay = 0.5
+second_delay = 0.25
+third_delay = 0.45
+fourth_delay = 0.65
+fifth_delay = 0.85
+
+while True:
+    
+    #first time
+    
+    led.high()
+    utime.sleep(first_delay)
+    led.low()
+    utime.sleep(first_delay)
+    led.high()
+    utime.sleep(second_delay)
+    led.low()
+    utime.sleep(second_delay)
+    led.high()
+    utime.sleep(third_delay)
+    led.low()
+    utime.sleep(third_delay)
+    led.high()
+    utime.sleep(fourth_delay)
+    led.low()
+    utime.sleep(fourth_delay)
+    led.high()
+    utime.sleep(fifth_delay)
+    led.low()
+    utime.sleep(fifth_delay)
+
+    #second time
+
+    led.high()
+    utime.sleep(first_delay)
+    led.low()
+    utime.sleep(first_delay)
+    led.high()
+    utime.sleep(second_delay)
+    led.low()
+    utime.sleep(second_delay)
+    led.high()
+    utime.sleep(third_delay)
+    led.low()
+    utime.sleep(third_delay)
+    led.high()
+    utime.sleep(fourth_delay)
+    led.low()
+    utime.sleep(fourth_delay)
+    led.high()
+    utime.sleep(fifth_delay)
+    led.low()
+    utime.sleep(fifth_delay)
+    
+    #third time
+    
+    led.high()
+    utime.sleep(first_delay)
+    led.low()
+    utime.sleep(first_delay)
+    led.high()
+    utime.sleep(second_delay)
+    led.low()
+    utime.sleep(second_delay)
+    led.high()
+    utime.sleep(third_delay)
+    led.low()
+    utime.sleep(third_delay)
+    led.high()
+    utime.sleep(fourth_delay)
+    led.low()
+    utime.sleep(fourth_delay)
+    led.high()
+    utime.sleep(fifth_delay)
+    led.low()
+    utime.sleep(fifth_delay)
+    
+    #fourth time
+    
+    led.high()
+    utime.sleep(first_delay)
+    led.low()
+    utime.sleep(first_delay)
+    led.high()
+    utime.sleep(second_delay)
+    led.low()
+    utime.sleep(second_delay)
+    led.high()
+    utime.sleep(third_delay)
+    led.low()
+    utime.sleep(third_delay)
+    led.high()
+    utime.sleep(fourth_delay)
+    led.low()
+    utime.sleep(fourth_delay)
+    led.high()
+    utime.sleep(fifth_delay)
+    led.low()
+    utime.sleep(fifth_delay)
+    
+    #fifth time
+    
+    led.high()
+    utime.sleep(first_delay)
+    led.low()
+    utime.sleep(first_delay)
+    led.high()
+    utime.sleep(second_delay)
+    led.low()
+    utime.sleep(second_delay)
+    led.high()
+    utime.sleep(third_delay)
+    led.low()
+    utime.sleep(third_delay)
+    led.high()
+    utime.sleep(fourth_delay)
+    led.low()
+    utime.sleep(fourth_delay)
+    led.high()
+    utime.sleep(fifth_delay)
+    led.low()
+    utime.sleep(fifth_delay)
